@@ -1,0 +1,63 @@
+footer{
+    margin-top: 100px;
+    height: 221px;
+    background-color: #F3F3F3;
+    border: 1px solid #EBEBEB;
+    .addres{
+            text-align: right;
+            margin: -30px 80px 0px 0px;
+        }
+        .footer__navbar{
+            padding: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            .day{
+                margin-top: -15px;
+margin-left: 20px;
+                position: relative;
+                &::before{
+                    background-repeat: no-repeat;
+                    left: -20px;
+                    top: 3px;
+
+                    background-image: url(/img/day.svg);
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                }
+            }
+            .home{
+margin-left: 20px;
+                width: 155px;
+                margin-top: -17px;
+                position: relative;
+                &::before{
+                    background-repeat: no-repeat;
+                    top: 5px;
+                    left: -20px;
+                    background-image: url(/img/house.svg);
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                }
+            }
+            
+            .tel{
+margin-left: 20px;
+
+                position: relative;
+                &::before{
+                    background-repeat: no-repeat;
+                    left: -20px;
+                    top: 3px;
+
+                    background-image: url(/img/phone.svg);
+                    width: 20px;
+                    height: 20px;
+                    position: absolute;
+                }
+            }
+        }
+    }

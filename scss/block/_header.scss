@@ -1,0 +1,129 @@
+.header{
+    .header__top{
+        padding: 15px;
+      
+        background-color: #F9F8F8;
+        .top__navbar{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .navbar__menu{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-left: 75px;
+                .menu__item{
+                    margin-right: 15px;
+                    .menu__link{
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 13px;
+                        line-height: 18px;
+                        color: #333333;
+                        transition: 0.10s ease all;
+                        &:hover{
+                            color: #FFBD54;
+                        }
+                    }
+                }
+                .br{
+                    position: relative;
+                    &::before{
+                        background-image: url(/img/nuxta.svg);
+                        position: absolute;
+                        width: 10px;
+                        height: 10px;
+                        left: -7px;
+                        background-repeat: no-repeat;
+                        top: 7px;
+                    }
+                }
+                &:nth-child(1){
+                    position: relative;
+                    &::before{
+                        position: absolute;
+                        width: 13px;
+                        height: 13px;
+                        background-image: url(/img/house.svg);
+                        left: 50px;
+                    }
+                }
+                &:nth-child(2){
+                    position: relative;
+                    &::before{
+                        position: absolute;
+                        width: 13px;
+                        height: 13px;
+                        background-image: url(/img/phone.svg);
+                        left: 50px;
+                        
+                    }
+                }
+                &:nth-child(3){
+                    position: relative;
+                    &::before{
+                        position: absolute;
+                        width: 13px;
+                        height: 13px;
+                        background-image: url(/img/day.svg);
+                        left: 50px;
+                    }
+                }
+            }
+        }
+    }
+    .header__bottom{
+        height: 61px;
+        background-color: #fff;
+        border: 1px solid #F3F3F3;
+        .container{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            .bottom__logo{
+                margin-top: -18px;
+            }
+            .bottom__navbar{
+                margin-top: -15px;
+                .navbar__menu{
+                    display: flex;
+                    align-items: center;
+                    .menu__item{
+                        padding: 0 27px;
+                        .menu__link{
+                            color: #333333;
+                            font-weight: 500;
+                            font-size: 16px;
+                            border-bottom: 3px solid transparent;
+                            transition: 0.8s ease all;
+                            &:hover{
+                                border-bottom: 3px solid yellow;
+                            }
+                        }
+                    }
+                }
+            }
+            .menu__btn{
+                margin-top: -15px;
+                color: #333333;
+                font-weight: 500;
+                font-size: 16px;
+                border-bottom: 3px solid transparent;
+                transition: 0.10s ease all;
+                position: relative;
+                &:hover{
+                    border-bottom: 3px solid yellow;
+                }
+                &::before{
+                    content: "";
+                    position: absolute;
+                    width: 25px;
+                    height: 25px;
+                    left: -30px;
+                    background-image: url(/img/pet.svg);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import "font";
+@import "./block/allblock";
+body{
+    color: #333333;
+    font-family: "Futura PT", sans-serif;
+    background-image: url(../../img/bg1.svg);
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    content: "";
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
