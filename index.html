@@ -105,7 +105,7 @@
             <section class="course">
                 <div class="container">
                     <h2 class="course__title">Будь в курсе событий</h2>
-                    <input type="email" placeholder="Укажите Ваш email адрес">
+                    <input type="email" required placeholder="Укажите Ваш email адрес">
                     <button class="course__btn" type="submit">Подписаться</button>
                 </div>
             </section>
@@ -142,22 +142,24 @@
                                 <time>21.07.2020</time>
                                 <h3 class="block__title">Когда привавать питомца?</h3>
                                 <p class="block__text">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-                                <a href="" class="block__btn">Читать больше</a>
+                                <a href="#" class="block__btn">Читать больше</a>
                             </div>
                         </li>
                     </ul>
                 </div>
             </section>
             <section class="form__wrapper">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19506.72219300227!2d19.050999658148758!3d52.3279727994364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471b70f030503f71%3A0x2b5e2972da2ac6d3!2zOTktMzUyIE1hcmlvcG9sLCDQn9C-0LvRjNGI0LA!5e0!3m2!1sru!2s!4v1626289094427!5m2!1sru!2s" width="450" height="650"></iframe>
-<form class="form" action="">
-    <h2 class="form__title">Обратная связь</h2>
-    <p class="form__describtion">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
-<input type="text" placeholder="Ваше имя">
-<input type="email" placeholder="Email для обратной связи">
-<textarea name="text" id="terea" cols="40" rows="10">Опишите Ваш вопрос.</textarea>
-<button type="submit">Задать нам вопрос</button>
-</form>
+                <div class="container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19506.72219300227!2d19.050999658148758!3d52.3279727994364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471b70f030503f71%3A0x2b5e2972da2ac6d3!2zOTktMzUyIE1hcmlvcG9sLCDQn9C-0LvRjNGI0LA!5e0!3m2!1sru!2s!4v1626289094427!5m2!1sru!2s" width="450" height="650"></iframe>
+                    <form class="form" method="POST" action="https://htmlacademy.ru">
+                        <h2 class="form__title">Обратная связь</h2>
+                        <p class="form__describtion">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
+                    <input type="text" autocomplete="name" required placeholder="Ваше имя">
+                    <input type="email" autocomplete="email" required placeholder="Email для обратной связи">
+                    <textarea name="text" id="terea" cols="40" rows="10">Опишите Ваш вопрос.</textarea>
+                    <button type="submit">Задать нам вопрос</button>
+                    </form>
+                </div>
             </section>
         </main>
         

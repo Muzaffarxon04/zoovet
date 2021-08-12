@@ -703,4 +703,77 @@ main .articl .articl__block__wrapper .bigblock .wrapper .block__btn::before {
   left: -35px;
   background-image: url(/img/pet.svg);
 }
+
+main .form__wrapper {
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: right center;
+  background-image: url(../img/fish.png);
+  background-color: #333333;
+}
+
+main .form__wrapper .container {
+  margin: 220px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .form__wrapper .container iframe {
+  margin-left: -225px;
+}
+
+main .form__wrapper .container .form {
+  margin-left: -150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .form__wrapper .container .form .form__title {
+  font-family: Futura PT;
+  font-size: 48px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+main .form__wrapper .container .form .form__describtion {
+  font-family: Futura PT;
+  font-weight: 400;
+  width: 350px;
+  padding: 20px 0;
+  color: #949494;
+}
+
+main .form__wrapper .container .form input {
+  height: 50px;
+  width: 375px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+main .form__wrapper .container .form textarea {
+  padding: 20px;
+  height: 165px;
+  width: 375px;
+}
+
+main .form__wrapper .container .form button {
+  background-color: #FFBD54;
+  display: inline-block;
+  margin-top: 30px;
+  height: 50px;
+  width: 226px;
+  color: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */

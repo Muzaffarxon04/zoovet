@@ -375,7 +375,65 @@ main{
             }
             
         }   
- 
+        
         
     }
+    .form__wrapper{
+        background-repeat: no-repeat;
+        background-size: 200px;
+        background-position: right center;
+background-image: url(../img/fish.png);
+        background-color: #333333;
+     .container{
+         margin: 220px auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        iframe{
+       margin-left: -225px;
+        }
+        .form{
+            margin-left: -150px;
+            display: flex;
+            flex-direction: column;
+            .form__title{
+                font-family: Futura PT;
+                font-size: 48px;
+                font-weight: 700;
+                color: #FFFFFF;
+                
+            } 
+            .form__describtion{
+                font-family: Futura PT;
+                font-weight: 400;
+                width: 350px;
+                padding: 20px 0;
+                color: #949494;
+                
+            }
+            input{
+                height: 50px;
+                width: 375px;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+            textarea{
+                padding: 20px;
+                height: 165px;
+                width: 375px;   
+                
+            }
+            button{
+                background-color: #FFBD54;             
+                display: inline-block;
+                margin-top: 30px;
+                height: 50px;
+                width: 226px;
+                color: #ffffff;
+                
+            }
+        }
+    }
+}
 }
