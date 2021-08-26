@@ -293,7 +293,7 @@ a {
   color: #333333;
 }
 
-main .care .container {
+main .care {
   background-image: url(/img/header-bg.png);
   background-size: cover;
   background-position: center;

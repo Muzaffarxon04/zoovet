@@ -1,12 +1,13 @@
 @import "general";
 main{
     .care{
+        background-image: url(/img/header-bg.png);
+        background-size: cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height: 700px;
+        
         .container{
-            background-image: url(/img/header-bg.png);
-            background-size: cover;
-            background-position:center;
-            background-repeat: no-repeat;
-            height: 700px;
             .care__title{
                 font-size: 70px;
                 width: 600px;
